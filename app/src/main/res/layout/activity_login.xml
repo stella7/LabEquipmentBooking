@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Equipment Booking"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <ImageView
+            android:id="@+id/logo_image_view"
+            android:src="@drawable/waterloo"
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@id/title_text_view"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image1"
+            android:src="@drawable/user"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <EditText
+            android:id="@+id/username_edit_text"
+            android:layout_toRightOf="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="12dp"
+            android:textColorHint="#cccccc"
+            android:hint="email address"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_below="@+id/image1"
+            android:src="@drawable/password"
+            android:layout_marginTop="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="12dp"
+            android:layout_toRightOf="@id/image2"
+            android:layout_below="@+id/username_edit_text"
+            android:textColorHint="#cccccc"
+            android:hint="password"
+            android:password="true"/>
+        <Button
+            android:id="@+id/login_button"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_below="@id/password_edit_text"
+            android:layout_centerHorizontal="true"
+            android:background="#26A69A"
+            android:textColor="#FAFAFA"
+            android:text="Log in"/>
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_below="@id/login_button"
+            android:layout_centerHorizontal="true"
+            android:background="#9E9E9E"
+            android:textColor="#FAFAFA"
+            android:text="Sign up"/>
+    </RelativeLayout>
+
+</LinearLayout>

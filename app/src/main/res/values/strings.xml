@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Equipment Booking Test</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_longin">Longin</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_device_list">DeviceList</string>
+    <string name="title_activity_devicelist">Devicelist</string>
+    <string name="title_activity_showdevice">Showdevice</string>
+    <string name="title_activity_useraccount">Useraccount</string>
+    <string name="title_activity_bookdevice">Bookdevice</string>
+    <string name="title_activity_choosedate">choosedate</string>
+    <string name="title_activity_book_device">BookDevice</string>
+    <string name="title_activity_show_device2">showDevice2</string>
+    <string name="title_activity_account_setting">AccountSetting</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_delete_user_account">DeleteUserAccount</string>
+</resources>

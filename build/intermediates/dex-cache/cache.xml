@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Stella/AndroidStudioProjects/EquipmentBookingTest/s66he/EquipmentBookingTest/app/libs/robotium-solo-5.5.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5066d43e704bac59ec7fe2bbcbb8ec8e6738fa59">
+        <dex dex="/Users/Stella/AndroidStudioProjects/EquipmentBookingTest/s66he/EquipmentBookingTest/app/build/intermediates/pre-dexed/debug/robotium-solo-5.5.3-f0bf2f8f6e1bfa0d58eb43bc73f891ea48144c6b.jar" />
+    </item>
+
+</items>

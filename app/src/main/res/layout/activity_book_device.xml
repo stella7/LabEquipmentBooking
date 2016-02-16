@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/iBhome"
+            android:src="@drawable/check"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:background="#FAFAFA"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iBhome"
+            android:text="Book Now"
+            android:typeface="serif"
+            android:textSize="25sp"
+            android:textColor="#26A69A"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center_horizontal" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/username_newBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="New"/>
+
+    <TextView
+        android:id="@+id/book_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FF6600"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+    <TextView
+        android:id="@+id/book_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FF6600"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/time_eight"
+            android:layout_width="wrap_content"
+            android:text="08:30 - 10:30"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox1"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/time_eight"/>
+        <TextView
+            android:id="@+id/user_email1"
+            android:layout_width="wrap_content"
+            android:textColor="#2196F3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/checkBox1"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/time_ten"
+            android:layout_width="wrap_content"
+            android:text="10:30 - 12:30"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2"
+            android:enabled="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/time_ten"/>
+        <TextView
+            android:id="@+id/user_email2"
+            android:layout_width="wrap_content"
+            android:textColor="#2196F3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/checkBox2"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/time_fourteen"
+            android:layout_width="wrap_content"
+            android:text="14:30 - 16:30"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/time_fourteen"/>
+        <TextView
+            android:id="@+id/user_email3"
+            android:layout_width="wrap_content"
+            android:textColor="#2196F3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/checkBox3"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/time_sixteen"
+            android:layout_width="wrap_content"
+            android:text="16:30 - 18:30"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/time_sixteen"/>
+        <TextView
+            android:id="@+id/user_email4"
+            android:layout_width="wrap_content"
+            android:textColor="#2196F3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/checkBox4"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/time_twenty"
+            android:layout_width="wrap_content"
+            android:text="20:30 - 22:30"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox5"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/time_twenty"/>
+        <TextView
+            android:id="@+id/user_email5"
+            android:layout_width="wrap_content"
+            android:textColor="#2196F3"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/checkBox5"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Done"
+        android:textColor="#FAFAFA"
+        android:background="#26A69A"/>
+</LinearLayout>
